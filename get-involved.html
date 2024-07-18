@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - Green Earth Initiative</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Green Earth Initiative</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="volunteer">
+            <h2>Volunteer with Us</h2>
+            <p>Your help is vital for our mission. Fill out the form below to sign up as a volunteer.</p>
+            <form id="volunteer-form" action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="availability">Availability:</label>
+                <textarea id="availability" name="availability" rows="4"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="donations">
+            <h2>Support Us</h2>
+            <p>Your contributions help us make a difference. Consider making a donation to support our projects.</p>
+            <p><strong>Donate Now:</strong></p>
+            <ul>
+                <li><a href="#donate-online">Donate Online</a></li>
+                <li><a href="#mail-check">Mail a Check</a></li>
+                <li><a href="#other">Other Ways to Donate</a></li>
+            </ul>
+        </section>
+        <section id="events">
+            <h2>Upcoming Events</h2>
+
+            <div class="event">
+                <img src="images/beach_cleanup_event.jpg" alt="Beach Cleanup Event">
+                <h3>Beach Cleanup</h3>
+                <p>Join us for a day of cleaning up the beach</p>
+            </div>
+            <div class="event">
+                <img src="images/tree_planting_event.jpg" alt="Tree Planting Event">
+                <h3>Tree Planting</h3>
+                <p>Help us plant trees in Central Park...</p>
+            </div>
+        </section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Event</th>
+                        <th>Location</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>July 25, 2024</td>
+                        <td>Beach Cleanup</td>
+                        <td>Santa Monica Beach</td>
+                        <td>Join us for a day of cleaning up the beach and protecting marine life.</td>
+                    </tr>
+                    <tr>
+                        <td>August 10, 2024</td>
+                        <td>Tree Planting</td>
+                        <td>Central Park</td>
+                        <td>Help us plant trees to improve urban air quality and biodiversity.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Green Earth Initiative. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
